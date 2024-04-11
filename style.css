@@ -10,8 +10,16 @@ body {
     margin: 50px auto;
     padding: 20px;
     background-color: #fff;
+    text-align: center;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 15px #E1A3FF;
+}
+
+.container img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    
 }
 
 h1 {
@@ -37,6 +45,14 @@ textarea {
     resize: none;
 }
 
+.info-text {
+    display: block;
+    margin-top: 5px;
+    color: #888;
+    font-size: 14px;
+}
+
+
 button {
     width: 100%;
     padding: 10px;
@@ -50,5 +66,5 @@ button {
 
 button:hover {
     background-color: #0056b3;
-    
+
 }

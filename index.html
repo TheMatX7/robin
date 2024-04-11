@@ -8,10 +8,11 @@
 </head>
 <body>
     <div class="container">
-        <h1>Formularz zgłoszeniowy - Akcja ROBIN</h1>
+        <img src="file/Robin1.png">
+        <h1>Formularz zgłoszeniowy - Stowarzyszenie ROBIN</h1>
         <form action="https://formspree.io/f/mvoevwnr" method="post">
             <div class="form-group">
-                <label for="name">Imię i nazwisko:</label>
+                <label for="name">Imię:</label>
                 <input type="text" id="name" name="name" required>
             </div>
             <div class="form-group">
@@ -20,9 +21,11 @@
             </div>
             <div class="form-group">
                 <label for="message">Wiadomość:</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
+                <span class="info-text">W polu wiadomość prosimy o podanie lokalizacji - miejsca zamieszkania oraz informacji na temat danego zdarzenia. Dziękujemy! </span>
+                <textarea id="message" name="message" rows="4" required ></textarea>
             </div>
             <button type="submit"><b>Wyślij</b></button>
+            <span class="info-text">Pomoc jest w drodze! Pamiętaj każdy ma swoje chwile słabości - jesteś wyjątkową osobą! </span>
         </form>
     </div>
 </body>
